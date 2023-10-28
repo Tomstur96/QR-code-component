@@ -1,0 +1,18 @@
+@use "../abstracts/" as *;
+
+.card {
+  max-width: 320px;
+  max-height: 100vh;
+  border-radius: size(20);
+
+  &__heading {
+    font-size: size(22);
+    font-weight: $fw-700;
+    color: clr(neutral, 900);
+    text-wrap: wrap;
+  }
+
+  &__info {
+    letter-spacing: -0.19px;
+  }
+}

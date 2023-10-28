@@ -1,0 +1,15 @@
+@use "../abstracts" as *;
+
+.flex-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
